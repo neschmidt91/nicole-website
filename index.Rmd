@@ -3,16 +3,14 @@ title: "Nicole!"
 image: "sunsetpic.jpg"
 links:
   - label: LinkedIn
-    url: "https://linkedin.com/"
-  - label: Twitter
-    url: "https://twitter.com/"
+    url: "https://linkedin.com/in/nicole-schmidt-446518126 "
   - label: GitHub
-    url: "https://github.com/"
+    url: "https://github.com/neschmidt91"
   - label: Email
-    url: "mailto:email@email.com"
+    url: "mailto:nicoleschmidt@ucsb.edu"
 output:
   postcards::jolla
 site: distill::distill_website
 ---
  
-I am a second year masters student at the Bren School living in Goleta, California. I am passionate about finding nature based solutions to California's water infrastructure problems.
+Nicole is a trained environmental scientist finishing up her masters at the Bren School UCSB in Goleta, California. She is passionate about finding nature based solutions to California's water infrastructure problems.
