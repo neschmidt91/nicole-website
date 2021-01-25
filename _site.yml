@@ -1,0 +1,14 @@
+liname: "."
+title: "Nicole Schmidt"
+description: |
+  Nicole Schmidt
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Nicole!"
+    - href: nicole.html
+output: distill::distill_article

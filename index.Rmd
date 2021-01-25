@@ -1,0 +1,18 @@
+---
+title: "Nicole!"
+image: "sunsetpic.jpg"
+links:
+  - label: LinkedIn
+    url: "https://linkedin.com/"
+  - label: Twitter
+    url: "https://twitter.com/"
+  - label: GitHub
+    url: "https://github.com/"
+  - label: Email
+    url: "mailto:email@email.com"
+output:
+  postcards::jolla
+site: distill::distill_website
+---
+ 
+I am a second year masters student at the Bren School living in Goleta, California. I am passionate about finding nature based solutions to California's water infrastructure problems.
