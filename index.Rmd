@@ -1,5 +1,5 @@
 ---
-title: "Nicole!"
+title: "Nicole"
 image: "sunsetpic.jpg"
 links:
   - label: LinkedIn
@@ -7,10 +7,10 @@ links:
   - label: GitHub
     url: "https://github.com/neschmidt91"
   - label: Email
-    url: "mailto:nicoleschmidt@ucsb.edu"
+    url: "mailto:nicoleschmidt@bren.ucsb.edu"
 output:
   postcards::jolla
 site: distill::distill_website
 ---
  
-Nicole is a trained environmental scientist finishing up her masters at the Bren School UCSB in Goleta, California. She is passionate about finding nature based solutions to California's water infrastructure problems.
+Nicole is a trained environmental scientist and manager finishing up her masters at the Bren School at UCSB in Goleta, California. She is passionate about finding nature based solutions to California's water infrastructure problems.
