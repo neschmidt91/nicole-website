@@ -2,19 +2,42 @@
   "articles": [
     {
       "path": "about.html",
-      "title": "About this site",
-      "description": "Some additional details about the website",
+      "title": "About Nicole",
+      "description": "Career and Aspirations ",
+      "author": [],
+      "contents": "\nInterests\nThe the vastness of the ocean and intricacies of rivers were my playground and classroom growing up. This connection to the natural world motivated me to dedicate the first part of my career to environmental education to inspire a love of nature in students and promote environmental justice. As the Education Specialist with Save the Bay, I worked to protect and restore wetland habitat by leading community-based restoration programs. I increased the native biodiversity in the transition zone of tidal marshes by engaging volunteers and students in invasive species removal, native plant propagation, installation, and shoreline cleanups. I loved working with a wide array of people and sharing with them the importance and beauty of wetlands and oceans. I am successful and passionate in fostering a citizenry that engages with and protects the natural environment. My work experience motivated me to seek a masters in Environmental Science and Management at the Bren school to continue working to promote sustainable behavioral change and civic engagement.\nMy focus at the Bren school lies in water resource management, conservation planning, and strategic environmental communication. I am passionate about finding nature based solutions to California’s water infrastructure problems through green infrastructure techniques. The interdisciplinary course load at the Bren School has enabled me to successfully communicate with people working in various sectors, such as business, economics, policy and politics, law, biogeochemistry, and earth system science. I am confident and successful in bringing people together in various discplines to solve complex environmental problems.\n\n\n\n",
+      "last_modified": "2021-02-08T12:47:13-08:00"
+    },
+    {
+      "path": "blog.html",
+      "title": "Blog",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-02-07T09:09:44-08:00"
+      "last_modified": "2021-02-08T12:47:14-08:00"
     },
     {
       "path": "index.html",
       "title": "Nicole",
       "author": [],
-      "contents": "\n\n          \n      \n      Nicole Schmidt\n      \n      \n      Home\n      About\n      Nicole!\n      \n      ☰\n      \n      \n      \n        \n          \n            Nicole\n          \n          \n            \n              Nicole is a trained environmental scientist and manager finishing up her masters at the Bren School at UCSB in Goleta, California. She is passionate about finding nature based solutions to California’s water infrastructure problems.\n            \n            \n              Nicole is a trained environmental scientist and manager finishing up her masters at the Bren School at UCSB in Goleta, California. She is passionate about finding nature based solutions to California’s water infrastructure problems.\n            \n          \n\n          \n            \n              \n                  \n                    \n                      LinkedIn\n                    \n                  \n                \n                                \n                  \n                    \n                      GitHub\n                    \n                  \n                \n                                \n                  \n                    \n                      Email\n                    \n                  \n                \n                              \n          \n\n          \n            \n              \n                                \n                  \n                    LinkedIn\n                  \n                \n                                \n                  \n                    GitHub\n                  \n                \n                                \n                  \n                    Email\n                  \n                \n                              \n            \n          \n        \n      \n    \n\n    \n    \n    ",
-      "last_modified": "2021-02-07T09:09:45-08:00"
+      "contents": "\n\n          \n      \n      Nicole Schmidt\n      \n      \n      Home\n      About\n      Projects\n      Resume\n      Blog\n      ☰\n      \n      \n      \n        \n          \n            Nicole\n          \n          \n            \n              Nicole is a trained environmental scientist and manager finishing up her masters at the Bren School at UCSB in Goleta, California. She is passionate about finding nature based solutions to California’s water infrastructure problems.\n            \n            \n              Nicole is a trained environmental scientist and manager finishing up her masters at the Bren School at UCSB in Goleta, California. She is passionate about finding nature based solutions to California’s water infrastructure problems.\n            \n          \n\n          \n            \n              \n                  \n                    \n                      LinkedIn\n                    \n                  \n                \n                                \n                  \n                    \n                      GitHub\n                    \n                  \n                \n                                \n                  \n                    \n                      Email\n                    \n                  \n                \n                              \n          \n\n          \n            \n              \n                                \n                  \n                    LinkedIn\n                  \n                \n                                \n                  \n                    GitHub\n                  \n                \n                                \n                  \n                    Email\n                  \n                \n                              \n            \n          \n        \n      \n    \n\n    \n    \n    ",
+      "last_modified": "2021-02-08T12:47:14-08:00"
+    },
+    {
+      "path": "projects.html",
+      "title": "Projects",
+      "description": "Project descriptions ",
+      "author": [],
+      "contents": "\nProjects\nMaster’s Project\nAnalyzing floodplain restoration opportunities to implement multiple benefit aquifer recharge projects that utilize natural infrastructure. Creating a geospatial model in ArcGIS using publcially avaialble scientific data to prioritize areas in Madera County that receive flood risk mitigation benefits and ecosystem enhancement benefits from flood managed aquifer recharge. Int the process of buiding a shiny application to communicate results to stakeholders. Check out our [projects website] (https://floodforward.wixsite.com/website)\nCommunciations Capstone\nTo be completed in late spring\nData Management and Analysis Projects\n\n\n\n",
+      "last_modified": "2021-02-08T12:47:15-08:00"
+    },
+    {
+      "path": "resume.html",
+      "title": "Resume",
+      "description": "Work Experience  ",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-02-08T12:47:15-08:00"
     }
   ],
-  "collections": []
+  "collections": ["posts/posts.json"]
 }

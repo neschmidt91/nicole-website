@@ -1,0 +1,19 @@
+[
+  {
+    "path": "posts/2021-02-07-welcome/",
+    "title": "welcome",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Nicole Schmidt",
+        "url": {}
+      }
+    ],
+    "date": "2021-02-07",
+    "categories": [],
+    "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-02-07T09:54:12-08:00",
+    "input_file": {}
+  }
+]

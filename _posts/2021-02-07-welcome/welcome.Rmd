@@ -1,0 +1,23 @@
+---
+title: "welcome"
+description: |
+  A short description of the post.
+author:
+  - name: Nicole Schmidt
+date: 02-07-2021
+output:
+  distill::distill_article:
+    self_contained: false
+      code_folding:  hide
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, echo = TRUE)
+```
+
+Distill is a publication format for scientific and technical writing, native to the web.
+
+Learn more about using Distill at <https://rstudio.github.io/distill>.
+
+

@@ -6,9 +6,16 @@ output_dir: "docs"
 navbar:
   right:
     - text: "Home"
-      href: index.html
+      href:  index.html
     - text: "About"
-      href: about.html
-    - text: "Nicole!"
-    - href: nicole.html
-output: distill::distill_article
+      href:  about.html
+    - text: "Projects"
+      href:  projects.html
+    - text: "Resume"
+      href:  resume.html
+    - text: "Blog"
+      href:  blog.html
+output:
+  distill::distill_article:
+    css: "styles_css.css"
+
