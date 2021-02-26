@@ -13,4 +13,4 @@ output:
 site: distill::distill_website
 ---
  
-Nicole is a trained environmental scientist and manager finishing up her masters at the Bren School at UCSB in Goleta, California. She is passionate about finding nature based solutions to California's water infrastructure problems.
+Nicole is a trained environmental scientist and manager finishing up her masters at the Bren School at UCSB. She is passionate about finding nature based solutions to California's water infrastructure problems.
