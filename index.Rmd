@@ -1,6 +1,6 @@
 ---
 title: "Nicole"
-image: "sunsetpic.jpg"
+image: "tahoe_guitar.png"
 links:
   - label: LinkedIn
     url: "https://linkedin.com/in/nicole-schmidt-446518126 "
@@ -11,6 +11,7 @@ links:
 output:
   postcards::jolla
 site: distill::distill_website
+listing: posts
 ---
  
-Nicole is a trained environmental scientist and manager finishing up her masters at the Bren School at UCSB. She is passionate about finding nature based solutions to California's water infrastructure problems.
+Nicole is a trained environmental scientist and manager finishing up her Master's at the Bren School of Environmental Science and Management. She is passionate about finding nature based solutions to environmental problems.

@@ -1,0 +1,220 @@
+---
+title: "Binary Logistic Regression"
+description: |
+  Using binary regression to test the feasibility of using plant characteristics to classify palmetto species. 
+author:
+  - name: Nicole Schmidt
+    url: {}
+date: 03-10-2021
+output:
+  distill::distill_article:
+    code_folding: true
+---
+
+
+```{r setup, cold_folding = TRUE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, messages = FALSE)
+
+# Attach packages and read in data
+
+library(tidyverse)
+library(janitor)
+library(here)
+library(broom)
+library(GGally)
+library(jtools)
+library(dplyr)
+library(kableExtra)
+
+
+# Read in data and tidy; rename plant species, select variables.
+
+palmetto <- read_csv("palmetto.csv") %>% 
+  select(year, plant, species, height, length, width, green_lvs) %>% 
+ mutate(species = case_when(species %in% c("1") ~ "Serenoa repens",
+                            species %in% c("2") ~ "Sabal etonia"))
+
+palmetto$species <- as.factor(palmetto$species)
+
+```
+
+#### Introduction
+The palmetto data set contains growth and survival data for two dominant palmetto species, _Serenoa repens_ and _Sabal etonia_, across multiple habitats, years, and experimental treatments. Data was recorded at the Archbold Biological Station located in Florida. This project highlights differences in height, canopy length, canopy width, and green leaves for the two species. A binary logistic regression model is used to see the odds of predicting correctly or incorrectly if a plant species is either the _Sabal etonia_ or _Serenoa repens_ based on plant height, canopy length, canopy width, and green leaves count. 
+
+
+```{r, include = FALSE}
+
+## Visualize the data and look at trends
+
+ggplot(data = palmetto, aes(x = length, y = width))+
+  geom_jitter(aes(color=species))+
+  facet_wrap(~species)
+
+ggplot(data = palmetto, aes(x = height, y = width))+
+  geom_jitter(aes(color=species))+
+  facet_wrap(~species)
+
+ggplot(data = palmetto, aes(x = height, y = width))+
+  geom_jitter(aes(color=species))+
+  facet_wrap(~species)
+
+ggplot(data = palmetto, aes(x = height, y = green_lvs))+
+  geom_jitter(aes(color=species))+
+  facet_wrap(~species)
+
+ggplot(data = palmetto, aes(x = width, y = green_lvs))+
+  geom_jitter(aes(color=species))+
+  facet_wrap(~species)
+
+#Observations from data exploration:
+#Serenoa repens seems to have more green leaves than Sabal etonia
+# Width, length, and height for both plants seem to be positively correlated
+
+```
+<br>
+
+#### Data exploration 
+
+```{r}
+# Finalize Graphs
+
+ggplot(data = palmetto, aes(x = height, y = green_lvs))+
+  geom_jitter(aes(color=species))+
+  facet_wrap(~species)+
+  labs( x = "Height(cm)", y = "Green leaves count", 
+        title = "Green leaves count and height comparison between Sabal etonia and Serenoa repens",
+        subtitle = ("1981 - 2017"),
+        fill = "Species",
+        caption = "Figure 1. Height(cm) and canopy width (cm) for Sabal Etonia and Serenoa repens")+
+  theme_bw()+
+  scale_color_manual(values = c("green", "dark green"))
+  
+
+```
+<br>
+
+- _Serenoa repens_ has a higher green leaf count than _Sabal etonia_
+- _Serenoa repens_ has more individuals that are greater in height than _Sabal etonia_ 
+
+<br>
+
+
+```{r}
+
+# Second Graph Height and Width 
+
+ggplot(data = palmetto, aes(x = length, y = width))+
+  geom_jitter(aes(color=species))+
+  facet_wrap(~species)+
+    labs( x = "Length (cm)", y = "Width (cm)", 
+        title = "Width and length comparison between Sabal etonia and Serenoa repens",
+        subtitle = ("1981 - 2017"),
+        fill = "Species",
+        caption = "Figure 2. Length (cm) and canopy width (cm) for Sabal etonia and Serenoa repens")+
+  theme_bw()+
+    scale_color_manual(values = c("green", "dark green"))
+
+```
+<br>
+
+- Both _Sabal etonia_ and _Serenoa repens_ have a positive correlation with length and width. As the length of plants grow so do the width of both plants 
+
+<br>
+
+
+#### Binary Logistic Regression 
+
+The next step in the analysis is to utilize a binary logistic regression model. The binary logistic regression model will be used to see the probability of predicting correctly if a plant species is either the _Sabal etonia_ or _Serenoa repens_ based on plant height, canopy length, canopy width, and green leaves count. 
+ 
+```{r}
+
+palmetto_blr <- glm(species ~ length + 
+                              width + green_lvs + height, 
+                            data = palmetto,
+                            family = "binomial")
+
+
+#checking levels(palmetto$species):
+#0 is Serenoa
+#1 is Sabel
+# interpret as the probability of serenoa repens
+
+#when the model is above 50% probability it is serenoa classification
+#when the model is below 50% it is likely sabal. 
+
+```
+<br>
+
+**Table 1:** Binomial Logistic Regression Outcomes for _Serenoa repens_ and _Sabal etonia_
+```{r}
+# Table 
+
+palmetto <- palmetto_blr %>% 
+  broom::tidy() %>% 
+  select(estimate, std.error, p.value) %>% 
+  mutate_if(is.numeric,funs(as.character(signif(.,3))))
+
+rownames(palmetto) <- c("Intercept",
+                        "Length (cm)",
+                        "Width (cm)",
+                        "Green Leaves (n)",
+                        "Height (cm)")
+
+kableExtra::kable(palmetto,
+                  col.names= c("Coefficient",
+                            "Standard Error",
+                            "p-value")) %>% 
+  kableExtra::kable_styling(bootstrap_options = "striped",
+                            full_width = F,
+                            position ="center") %>% 
+  kableExtra::add_header_above(bold = TRUE,
+                               line = TRUE,
+                               c("Binomial Logistic Regression for _Serenoa repens_, and _Sabal etonia_" = 4))
+
+
+```
+#### Summary
+
+- As the canopy length of the plant increases, the odds of the plant being _Serenoa repens_ decreases. 
+- As the width of the plant increases, the odds of the plant being _Serenoa repens_ decreases.
+- As the green leave count increases the odds of the plant being a _Serenoa repens_ increases.
+- As the height of the plant increases, the odds of the plant being a _Serenoa repens_ increases. 
+
+
+<br>
+
+**Table 2.** Incidents of correct and incorrect predictions of palmetto species based on the binary logistic model of predictor variables
+```{r}
+#model fitting 
+
+blr_fitted <- palmetto_blr %>% 
+  broom::augment(type.predict = "response") %>% 
+  mutate(predicted = ifelse(.fitted >= .5, "Serenoa repens", "Sabal etonia")) %>% 
+  mutate(correct = ifelse(predicted == species, "predicted_correctly", "predicted_incorrectly"))
+  
+palmetto_table <- blr_fitted %>% 
+  count(species, correct) %>% 
+pivot_wider(names_from = correct, values_from = n) %>% 
+mutate(total = rowSums(across(where(is.numeric)))) %>%
+mutate(percent = (predicted_correctly / total)* 100) %>%
+ mutate_if(is.numeric,funs(as.character(signif(.,3))))
+
+
+kableExtra::kable(palmetto_table,
+                  col.names= c("Species", "Correct Prediction",
+                               "Incorrect Prediction", "Total", "% Correct")) %>% 
+    kableExtra::kable_styling(bootstrap_options = "striped",
+                            full_width = F,
+                            position ="center") %>% 
+  kableExtra::add_header_above(bold = TRUE,
+                               line = TRUE,
+                               c("Percent species predicted correctly by binary logistic regression model" = 5))
+
+
+```
+#### Summary 
+Based on the binary logistic regression model, the odds of predicting the _Sabal etonia_ based on the plant characteristics of height, canopy length, canopy width, and green leaves count is 92.6%, and the odds of predicting the _Serenoa repens_ is 90.8%.
+
+
+### Data Source
+Abrahamson, W.G. 2019. Survival, growth and biomass estimates of two dominant palmetto species of south-central Florida from 1981 - 2017, ongoing at 5-year intervals ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/f2f96ec76fbbd4b9db431c79a770c4d5

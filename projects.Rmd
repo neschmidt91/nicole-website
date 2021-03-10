@@ -11,9 +11,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ### Projects 
 
 #### Master's Project 
-Analyzing floodplain restoration opportunities to implement multiple benefit aquifer recharge projects that utilize natural infrastructure. Creating a geospatial model in ArcGIS using publcially avaialble scientific data to prioritize areas in Madera County that receive flood risk mitigation benefits and ecosystem enhancement benefits from flood managed aquifer recharge. Int the process of buiding a shiny application to communicate results to stakeholders. Check out our [projects website]  (https://floodforward.wixsite.com/website)
+For my Master's project, 3 group members and myself analyzed floodplain restoration opportunities in Madera County.  We identified priority areas to implement multiple benefit aquifer recharge projects that utilize natural infrastructure through a geospatial model in ArcGIS using publcially avaialble scientific data. Prioritization centered around areas in Madera County that could receive flood risk mitigation benefits and ecosystem enhancement benefits from flood managed aquifer recharge. We also created a shiny application to communicate results to stakeholders. To learn more about our project check out our website:  https://floodforward.wixsite.com/website
 
-#### Communciations Capstone 
+#### Communciation's Capstone 
 To be completed in late spring
 
-#### Data Management and Analysis Projects

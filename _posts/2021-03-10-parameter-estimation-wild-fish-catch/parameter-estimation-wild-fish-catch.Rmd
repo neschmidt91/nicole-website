@@ -1,0 +1,174 @@
+---
+title: "Parameter Estimation - Wild Fish Catch"
+description: |
+  This project looks at global wild fish catch from 1950 - 2012 and uses nonlinear least squares to estimate the increase in global wild fish catch. 
+author:
+  - name: Nicole Schmidt
+    url: {}
+date: 03-10-2021
+output:
+  distill::distill_article:
+    code_folding: true
+---
+
+```{r setup, code_folding = TRUE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+
+library(tidyverse)
+library(here)
+library(boot)
+library(gt)
+library(patchwork)
+library(broom)
+library(nlstools)
+library(janitor)
+
+```
+
+### Introduction 
+This project uses nonlinear least squares to estimate the increase in global wild fish catch. The data set contains world wild fish catch between 1950 - 2012. The data includes fishes, crustaceans, mollusks, and other aquatic animals. It does not include crocodiles, alligators, and aquatic mammals. The figures for 2011 are estimates and the figures for 2012 are projections. The data was compiled by the Earth Policy Institute. 
+
+```{r}
+# read in data and tidy
+
+fish_catch <- read_csv("fish_catch.csv")  %>%  
+  clean_names() %>% 
+  drop_na() %>% # drops na (entire row)
+  rename("year" = "world_wild_fish_catch_and_farmed_fish_production_1950_2012") %>% 
+  rename("wild_catch" = "x2", "farmed_fish" = "x3", "total_fish_production" = "x4")
+
+fish_catch_tidy <- fish_catch[-1,] %>%     # removes first row
+  mutate_if(is.character, as.numeric) %>%  # changes the character classes to numeric 
+  mutate(year_start = year - min(year)) # create a new column to make year 1950 start with 0...
+
+#summary(fish_catch_tidy)
+
+```
+
+
+#### Explore wild catch over time 
+```{r}
+
+ggplot(fish_catch_tidy, aes(x = year_start, y = wild_catch))+
+  geom_point()+
+  theme_bw()+
+  labs(x = "Time (years)", y = "Population (individuals)", title = "Wild catch over time")
+
+```
+<br>
+**Figure 1:** Wild catch over time for wild catch population. The x axis indicates time in number of years and the y axis indicates population in years. 
+
+```{r}
+# log transformation:
+ggplot(data = fish_catch_tidy, aes(x = year_start, y = log(wild_catch))) +
+  geom_point() +
+  theme_bw() +
+  labs(x = "Time (year)", y = "ln(population)", title = "Wild catch over time")
+```
+<br>
+
+**Figure 2:** Wild catch over time in log units for wild catch population. The x axis indicates time in number of years and the y axis indicates population in log units. 
+
+Wild catch over the 62 years expresses a logistic growth trend. This indicates that the wild catch population's per capita growth rate decreases as the population size approaches a carrying capacity (K). The carrying capacity represents an approach to limited resources. 
+
+Logistic growth equation: 
+
+$P(t)=\frac{K}{1+Ae^{-kt}}$, where
+
+- $K$ is the carrying capacity
+- $A$ is $\frac{K-P_0}{P_0}$
+- $k$ is the growth rate constant
+
+### Find initial estimates for *K*, *A* and *k*:
+```{r, results = FALSE}
+
+# Get only up to 40 years & log transform the population
+# To estimate the growth rate constant (k) *during exponential growth phase)
+wild_catch_exp <- fish_catch_tidy %>% 
+  filter(year_start < 41) %>% 
+  mutate(ln_pop = log(wild_catch))
+  
+# Model linear to get *k* estimate (the slope of this linear equation is an estimate of the growth rate constant):
+lm_k <- lm(ln_pop ~ year_start, data = wild_catch_exp)
+#lm_k
+
+# Estimates: 
+# Coefficient (k) ~ 0.03537
+#K = 90
+#A <- (90-17)/17
+#A
+#A = 4.29
+
+df_nls <- nls(wild_catch ~ K/(1 + A*exp(-r*year_start)),
+              data = fish_catch_tidy,
+              start = list(K = 90, A = 4.29, r = 0.035),
+              trace = TRUE
+              )
+
+```
+
+Initial estimates:
+**k** = .035,
+**K** = 90,
+**A** = 4.29
+
+
+```{r}
+# Use broom:: functions to get model outputs in tidier format: 
+model_out <- broom::tidy(df_nls) %>% 
+  mutate_if(is.numeric, funs(as.character(signif(., 3))))
+
+# Want to just get one of these?  
+#A_est <- model_out$estimate[2] # Gets the first rown in the estimate column.
+```
+
+
+**Table 1:**  Estimated parameter outcomes for increase in world wild catch between 1950 - 2012. Data Source: Earth Policy Institute 
+```{r}
+# Create a table using gt()
+
+model_out %>% 
+  gt() %>% 
+    tab_header(
+    title = "Parameter outcomes for wild catch",
+    subtitle = "From nonlinear least squares") %>% 
+    cols_label(
+    term = "Term",
+    estimate = "Value Estimate",
+    std.error = "Standard Error",
+    statistic = "Statistic",
+    p.value = "P Value") %>% 
+    tab_footnote( 
+    footnote = "Data from 1950 - 2012",
+    location = cells_title())
+```
+
+
+The model with estimated parameters is:
+$$P(t) = \frac{100.3}{1+4.32e^{-0.07t}}$$
+
+#### Visualize model over original observed values
+```{r}
+
+# Make predictions for the population at all of those times (time) in the original df: 
+p_predict <- predict(df_nls)
+
+# Bind predictions to original data frame:
+df_complete <- data.frame(fish_catch_tidy, p_predict)
+
+# Plot them all together:
+ggplot(data = df_complete, aes(x = year_start, y = wild_catch)) +
+  geom_point() +
+  geom_line(aes(x = year_start, y = p_predict)) +
+  theme_bw()+
+  labs(x = "Time (years)", y = "Population (individuals)", 
+       title = "Increase in wild catch")
+
+```
+<br>
+
+**Figure 3:** Increase in wild catch over time. The x-axis indicates time in years and the y-axis indicates the wild catch population in number of individuals. The dotted line represents results from the original data, while the solid line indicates the results from the predicted model output. 
+
+#### Data Source
+Global wild fish catch and aquaculture production, compiled by Earth Policy Institute with 1950-2010 from U.N. Food and Agriculture Organization (FAO), Global Capture Production and Global Aquaculture Production, electronic databases, at www.fao.org/fishery/topic/16140/en.
+

@@ -1,0 +1,1937 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <smilCustomTest bookStruct="PAGE_NUMBER" defaultState="false" id="pagenumCustomTest" override="visible"/>
+    <smilCustomTest bookStruct="PAGE_NUMBER" defaultState="false" id="headerCustomTest" override="visible"/>
+    <meta content="handmaidstale0000atwo" name="dtb:uid"/>
+    <meta content="Internet Archive - archive.org" name="dtb:generator"/>
+    <meta content="2" name="dtb:depth"/>
+    <meta content="313" name="dtb:totalPageCount"/>
+    <meta content="99" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>The handmaid's tale</text>
+  </docTitle>
+  <docAuthor>
+    <text>Atwood, Margaret, 1939-</text>
+  </docAuthor>
+  <navMap>
+    <navInfo>
+      <text>Book navigation</text>
+    </navInfo>
+    <navPoint class="navpoint-level-level1" id="level1_00004" playOrder="1">
+      <navLabel>
+        <text>Producer's Note</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#h1_00005"/>
+      <navPoint class="navpoint-level-level2" id="level2_00006" playOrder="2">
+        <navLabel>
+          <text>About Internet Archive Daisy Books</text>
+        </navLabel>
+        <content src="handmaidstale0000atwo_daisy.smil#h2_00007"/>
+      </navPoint>
+      <navPoint class="navpoint-level-level2" id="level2_00009" playOrder="3">
+        <navLabel>
+          <text>About this DAISY book</text>
+        </navLabel>
+        <content src="handmaidstale0000atwo_daisy.smil#h2_00010"/>
+      </navPoint>
+      <navPoint class="navpoint-level-level2" id="level2_00012" playOrder="4">
+        <navLabel>
+          <text>About the Internet Archive</text>
+        </navLabel>
+        <content src="handmaidstale0000atwo_daisy.smil#h2_00013"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="navpoint-level-level1" id="level1_00016" playOrder="5">
+      <navLabel>
+        <text>Book</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#h1_00017"/>
+    </navPoint>
+  </navMap>
+  <pageList>
+    <navLabel>
+      <text>Pages</text>
+    </navLabel>
+    <pageTarget id="pagenum_00087" playOrder="6" type="normal" value="3">
+      <navLabel>
+        <text>3</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00087"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00093" playOrder="7" type="normal" value="4">
+      <navLabel>
+        <text>4</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00093"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00099" playOrder="8" type="normal" value="5">
+      <navLabel>
+        <text>5</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00099"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00102" playOrder="9" type="normal" value="6">
+      <navLabel>
+        <text>6</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00102"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00103" playOrder="10" type="normal" value="7">
+      <navLabel>
+        <text>7</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00103"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00110" playOrder="11" type="normal" value="8">
+      <navLabel>
+        <text>8</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00110"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00119" playOrder="12" type="normal" value="9">
+      <navLabel>
+        <text>9</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00119"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00126" playOrder="13" type="normal" value="10">
+      <navLabel>
+        <text>10</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00126"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00137" playOrder="14" type="normal" value="11">
+      <navLabel>
+        <text>11</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00137"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00147" playOrder="15" type="normal" value="12">
+      <navLabel>
+        <text>12</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00147"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00152" playOrder="16" type="normal" value="13">
+      <navLabel>
+        <text>13</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00152"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00162" playOrder="17" type="normal" value="14">
+      <navLabel>
+        <text>14</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00162"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00173" playOrder="18" type="normal" value="15">
+      <navLabel>
+        <text>15</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00173"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00186" playOrder="19" type="normal" value="16">
+      <navLabel>
+        <text>16</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00186"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00195" playOrder="20" type="normal" value="17">
+      <navLabel>
+        <text>17</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00195"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00201" playOrder="21" type="normal" value="18">
+      <navLabel>
+        <text>18</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00201"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00211" playOrder="22" type="normal" value="19">
+      <navLabel>
+        <text>19</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00211"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00226" playOrder="23" type="normal" value="20">
+      <navLabel>
+        <text>20</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00226"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00239" playOrder="24" type="normal" value="21">
+      <navLabel>
+        <text>21</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00239"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00251" playOrder="25" type="normal" value="22">
+      <navLabel>
+        <text>22</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00251"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00260" playOrder="26" type="normal" value="23">
+      <navLabel>
+        <text>23</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00260"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00265" playOrder="27" type="normal" value="24">
+      <navLabel>
+        <text>24</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00265"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00275" playOrder="28" type="normal" value="25">
+      <navLabel>
+        <text>25</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00275"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00283" playOrder="29" type="normal" value="26">
+      <navLabel>
+        <text>26</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00283"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00293" playOrder="30" type="normal" value="27">
+      <navLabel>
+        <text>27</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00293"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00302" playOrder="31" type="normal" value="28">
+      <navLabel>
+        <text>28</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00302"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00317" playOrder="32" type="normal" value="29">
+      <navLabel>
+        <text>29</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00317"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00325" playOrder="33" type="normal" value="30">
+      <navLabel>
+        <text>30</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00325"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00334" playOrder="34" type="normal" value="31">
+      <navLabel>
+        <text>31</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00334"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00345" playOrder="35" type="normal" value="32">
+      <navLabel>
+        <text>32</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00345"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00354" playOrder="36" type="normal" value="33">
+      <navLabel>
+        <text>33</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00354"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00362" playOrder="37" type="normal" value="34">
+      <navLabel>
+        <text>34</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00362"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00363" playOrder="38" type="normal" value="35">
+      <navLabel>
+        <text>35</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00363"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00365" playOrder="39" type="normal" value="36">
+      <navLabel>
+        <text>36</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00365"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00366" playOrder="40" type="normal" value="37">
+      <navLabel>
+        <text>37</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00366"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00375" playOrder="41" type="normal" value="38">
+      <navLabel>
+        <text>38</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00375"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00390" playOrder="42" type="normal" value="39">
+      <navLabel>
+        <text>39</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00390"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00408" playOrder="43" type="normal" value="40">
+      <navLabel>
+        <text>40</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00408"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00417" playOrder="44" type="normal" value="41">
+      <navLabel>
+        <text>41</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00417"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00419" playOrder="45" type="normal" value="42">
+      <navLabel>
+        <text>42</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00419"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00421" playOrder="46" type="normal" value="43">
+      <navLabel>
+        <text>43</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00421"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00427" playOrder="47" type="normal" value="44">
+      <navLabel>
+        <text>44</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00427"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00439" playOrder="48" type="normal" value="45">
+      <navLabel>
+        <text>45</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00439"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00447" playOrder="49" type="normal" value="46">
+      <navLabel>
+        <text>46</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00447"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00456" playOrder="50" type="normal" value="47">
+      <navLabel>
+        <text>47</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00456"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00465" playOrder="51" type="normal" value="48">
+      <navLabel>
+        <text>48</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00465"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00480" playOrder="52" type="normal" value="49">
+      <navLabel>
+        <text>49</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00480"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00487" playOrder="53" type="normal" value="50">
+      <navLabel>
+        <text>50</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00487"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00497" playOrder="54" type="normal" value="51">
+      <navLabel>
+        <text>51</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00497"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00503" playOrder="55" type="normal" value="52">
+      <navLabel>
+        <text>52</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00503"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00510" playOrder="56" type="normal" value="53">
+      <navLabel>
+        <text>53</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00510"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00524" playOrder="57" type="normal" value="54">
+      <navLabel>
+        <text>54</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00524"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00537" playOrder="58" type="normal" value="55">
+      <navLabel>
+        <text>55</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00537"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00544" playOrder="59" type="normal" value="56">
+      <navLabel>
+        <text>56</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00544"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00562" playOrder="60" type="normal" value="57">
+      <navLabel>
+        <text>57</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00562"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00574" playOrder="61" type="normal" value="58">
+      <navLabel>
+        <text>58</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00574"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00579" playOrder="62" type="normal" value="59">
+      <navLabel>
+        <text>59</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00579"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00585" playOrder="63" type="normal" value="60">
+      <navLabel>
+        <text>60</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00585"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00600" playOrder="64" type="normal" value="61">
+      <navLabel>
+        <text>61</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00600"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00613" playOrder="65" type="normal" value="62">
+      <navLabel>
+        <text>62</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00613"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00618" playOrder="66" type="normal" value="63">
+      <navLabel>
+        <text>63</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00618"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00624" playOrder="67" type="normal" value="64">
+      <navLabel>
+        <text>64</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00624"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00636" playOrder="68" type="normal" value="65">
+      <navLabel>
+        <text>65</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00636"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00644" playOrder="69" type="normal" value="66">
+      <navLabel>
+        <text>66</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00644"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00650" playOrder="70" type="normal" value="67">
+      <navLabel>
+        <text>67</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00650"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00652" playOrder="71" type="normal" value="68">
+      <navLabel>
+        <text>68</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00652"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00653" playOrder="72" type="normal" value="69">
+      <navLabel>
+        <text>69</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00653"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00659" playOrder="73" type="normal" value="70">
+      <navLabel>
+        <text>70</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00659"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00668" playOrder="74" type="normal" value="71">
+      <navLabel>
+        <text>71</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00668"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00679" playOrder="75" type="normal" value="72">
+      <navLabel>
+        <text>72</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00679"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00699" playOrder="76" type="normal" value="73">
+      <navLabel>
+        <text>73</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00699"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00712" playOrder="77" type="normal" value="74">
+      <navLabel>
+        <text>74</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00712"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00718" playOrder="78" type="normal" value="75">
+      <navLabel>
+        <text>75</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00718"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00722" playOrder="79" type="normal" value="76">
+      <navLabel>
+        <text>76</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00722"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00723" playOrder="80" type="normal" value="77">
+      <navLabel>
+        <text>77</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00723"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00725" playOrder="81" type="normal" value="78">
+      <navLabel>
+        <text>78</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00725"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00726" playOrder="82" type="normal" value="79">
+      <navLabel>
+        <text>79</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00726"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00733" playOrder="83" type="normal" value="80">
+      <navLabel>
+        <text>80</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00733"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00740" playOrder="84" type="normal" value="81">
+      <navLabel>
+        <text>81</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00740"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00751" playOrder="85" type="normal" value="82">
+      <navLabel>
+        <text>82</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00751"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00762" playOrder="86" type="normal" value="83">
+      <navLabel>
+        <text>83</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00762"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00775" playOrder="87" type="normal" value="84">
+      <navLabel>
+        <text>84</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00775"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00783" playOrder="88" type="normal" value="85">
+      <navLabel>
+        <text>85</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00783"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00793" playOrder="89" type="normal" value="86">
+      <navLabel>
+        <text>86</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00793"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00798" playOrder="90" type="normal" value="87">
+      <navLabel>
+        <text>87</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00798"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00808" playOrder="91" type="normal" value="88">
+      <navLabel>
+        <text>88</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00808"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00821" playOrder="92" type="normal" value="89">
+      <navLabel>
+        <text>89</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00821"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00842" playOrder="93" type="normal" value="90">
+      <navLabel>
+        <text>90</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00842"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00851" playOrder="94" type="normal" value="91">
+      <navLabel>
+        <text>91</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00851"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00859" playOrder="95" type="normal" value="92">
+      <navLabel>
+        <text>92</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00859"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00865" playOrder="96" type="normal" value="93">
+      <navLabel>
+        <text>93</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00865"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00874" playOrder="97" type="normal" value="94">
+      <navLabel>
+        <text>94</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00874"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00884" playOrder="98" type="normal" value="95">
+      <navLabel>
+        <text>95</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00884"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00895" playOrder="99" type="normal" value="96">
+      <navLabel>
+        <text>96</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00895"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00904" playOrder="100" type="normal" value="97">
+      <navLabel>
+        <text>97</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00904"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00916" playOrder="101" type="normal" value="98">
+      <navLabel>
+        <text>98</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00916"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00929" playOrder="102" type="normal" value="99">
+      <navLabel>
+        <text>99</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00929"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00938" playOrder="103" type="normal" value="100">
+      <navLabel>
+        <text>100</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00938"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00939" playOrder="104" type="normal" value="101">
+      <navLabel>
+        <text>101</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00939"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00941" playOrder="105" type="normal" value="102">
+      <navLabel>
+        <text>102</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00941"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00942" playOrder="106" type="normal" value="103">
+      <navLabel>
+        <text>103</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00942"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00950" playOrder="107" type="normal" value="104">
+      <navLabel>
+        <text>104</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00950"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00957" playOrder="108" type="normal" value="105">
+      <navLabel>
+        <text>105</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00957"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00964" playOrder="109" type="normal" value="106">
+      <navLabel>
+        <text>106</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00964"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00973" playOrder="110" type="normal" value="107">
+      <navLabel>
+        <text>107</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00973"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00975" playOrder="111" type="normal" value="108">
+      <navLabel>
+        <text>108</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00975"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00976" playOrder="112" type="normal" value="109">
+      <navLabel>
+        <text>109</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00976"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00983" playOrder="113" type="normal" value="110">
+      <navLabel>
+        <text>110</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00983"/>
+    </pageTarget>
+    <pageTarget id="pagenum_00996" playOrder="114" type="normal" value="111">
+      <navLabel>
+        <text>111</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_00996"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01006" playOrder="115" type="normal" value="112">
+      <navLabel>
+        <text>112</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01006"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01012" playOrder="116" type="normal" value="113">
+      <navLabel>
+        <text>113</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01012"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01019" playOrder="117" type="normal" value="114">
+      <navLabel>
+        <text>114</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01019"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01028" playOrder="118" type="normal" value="115">
+      <navLabel>
+        <text>115</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01028"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01041" playOrder="119" type="normal" value="116">
+      <navLabel>
+        <text>116</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01041"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01047" playOrder="120" type="normal" value="117">
+      <navLabel>
+        <text>117</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01047"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01055" playOrder="121" type="normal" value="118">
+      <navLabel>
+        <text>118</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01055"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01062" playOrder="122" type="normal" value="119">
+      <navLabel>
+        <text>119</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01062"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01067" playOrder="123" type="normal" value="120">
+      <navLabel>
+        <text>120</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01067"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01073" playOrder="124" type="normal" value="121">
+      <navLabel>
+        <text>121</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01073"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01086" playOrder="125" type="normal" value="122">
+      <navLabel>
+        <text>122</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01086"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01092" playOrder="126" type="normal" value="123">
+      <navLabel>
+        <text>123</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01092"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01099" playOrder="127" type="normal" value="124">
+      <navLabel>
+        <text>124</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01099"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01114" playOrder="128" type="normal" value="125">
+      <navLabel>
+        <text>125</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01114"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01121" playOrder="129" type="normal" value="126">
+      <navLabel>
+        <text>126</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01121"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01132" playOrder="130" type="normal" value="127">
+      <navLabel>
+        <text>127</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01132"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01139" playOrder="131" type="normal" value="128">
+      <navLabel>
+        <text>128</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01139"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01144" playOrder="132" type="normal" value="129">
+      <navLabel>
+        <text>129</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01144"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01158" playOrder="133" type="normal" value="130">
+      <navLabel>
+        <text>130</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01158"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01169" playOrder="134" type="normal" value="131">
+      <navLabel>
+        <text>131</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01169"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01180" playOrder="135" type="normal" value="132">
+      <navLabel>
+        <text>132</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01180"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01193" playOrder="136" type="normal" value="133">
+      <navLabel>
+        <text>133</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01193"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01204" playOrder="137" type="normal" value="134">
+      <navLabel>
+        <text>134</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01204"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01209" playOrder="138" type="normal" value="135">
+      <navLabel>
+        <text>135</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01209"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01222" playOrder="139" type="normal" value="136">
+      <navLabel>
+        <text>136</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01222"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01233" playOrder="140" type="normal" value="137">
+      <navLabel>
+        <text>137</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01233"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01247" playOrder="141" type="normal" value="138">
+      <navLabel>
+        <text>138</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01247"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01262" playOrder="142" type="normal" value="139">
+      <navLabel>
+        <text>139</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01262"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01276" playOrder="143" type="normal" value="140">
+      <navLabel>
+        <text>140</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01276"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01284" playOrder="144" type="normal" value="141">
+      <navLabel>
+        <text>141</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01284"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01286" playOrder="145" type="normal" value="142">
+      <navLabel>
+        <text>142</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01286"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01289" playOrder="146" type="normal" value="143">
+      <navLabel>
+        <text>143</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01289"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01298" playOrder="147" type="normal" value="144">
+      <navLabel>
+        <text>144</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01298"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01309" playOrder="148" type="normal" value="145">
+      <navLabel>
+        <text>145</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01309"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01317" playOrder="149" type="normal" value="146">
+      <navLabel>
+        <text>146</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01317"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01327" playOrder="150" type="normal" value="147">
+      <navLabel>
+        <text>147</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01327"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01331" playOrder="151" type="normal" value="148">
+      <navLabel>
+        <text>148</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01331"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01332" playOrder="152" type="normal" value="149">
+      <navLabel>
+        <text>149</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01332"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01334" playOrder="153" type="normal" value="150">
+      <navLabel>
+        <text>150</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01334"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01335" playOrder="154" type="normal" value="151">
+      <navLabel>
+        <text>151</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01335"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01347" playOrder="155" type="normal" value="152">
+      <navLabel>
+        <text>152</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01347"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01365" playOrder="156" type="normal" value="153">
+      <navLabel>
+        <text>153</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01365"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01372" playOrder="157" type="normal" value="154">
+      <navLabel>
+        <text>154</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01372"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01380" playOrder="158" type="normal" value="155">
+      <navLabel>
+        <text>155</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01380"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01390" playOrder="159" type="normal" value="156">
+      <navLabel>
+        <text>156</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01390"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01398" playOrder="160" type="normal" value="157">
+      <navLabel>
+        <text>157</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01398"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01410" playOrder="161" type="normal" value="158">
+      <navLabel>
+        <text>158</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01410"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01426" playOrder="162" type="normal" value="159">
+      <navLabel>
+        <text>159</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01426"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01446" playOrder="163" type="normal" value="160">
+      <navLabel>
+        <text>160</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01446"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01452" playOrder="164" type="normal" value="161">
+      <navLabel>
+        <text>161</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01452"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01458" playOrder="165" type="normal" value="162">
+      <navLabel>
+        <text>162</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01458"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01473" playOrder="166" type="normal" value="163">
+      <navLabel>
+        <text>163</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01473"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01480" playOrder="167" type="normal" value="164">
+      <navLabel>
+        <text>164</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01480"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01484" playOrder="168" type="normal" value="165">
+      <navLabel>
+        <text>165</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01484"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01495" playOrder="169" type="normal" value="166">
+      <navLabel>
+        <text>166</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01495"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01505" playOrder="170" type="normal" value="167">
+      <navLabel>
+        <text>167</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01505"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01514" playOrder="171" type="normal" value="168">
+      <navLabel>
+        <text>168</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01514"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01536" playOrder="172" type="normal" value="169">
+      <navLabel>
+        <text>169</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01536"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01549" playOrder="173" type="normal" value="170">
+      <navLabel>
+        <text>170</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01549"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01554" playOrder="174" type="normal" value="171">
+      <navLabel>
+        <text>171</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01554"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01560" playOrder="175" type="normal" value="172">
+      <navLabel>
+        <text>172</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01560"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01569" playOrder="176" type="normal" value="173">
+      <navLabel>
+        <text>173</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01569"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01578" playOrder="177" type="normal" value="174">
+      <navLabel>
+        <text>174</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01578"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01593" playOrder="178" type="normal" value="175">
+      <navLabel>
+        <text>175</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01593"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01606" playOrder="179" type="normal" value="176">
+      <navLabel>
+        <text>176</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01606"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01624" playOrder="180" type="normal" value="177">
+      <navLabel>
+        <text>177</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01624"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01634" playOrder="181" type="normal" value="178">
+      <navLabel>
+        <text>178</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01634"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01648" playOrder="182" type="normal" value="179">
+      <navLabel>
+        <text>179</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01648"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01668" playOrder="183" type="normal" value="180">
+      <navLabel>
+        <text>180</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01668"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01677" playOrder="184" type="normal" value="181">
+      <navLabel>
+        <text>181</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01677"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01685" playOrder="185" type="normal" value="182">
+      <navLabel>
+        <text>182</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01685"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01698" playOrder="186" type="normal" value="183">
+      <navLabel>
+        <text>183</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01698"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01705" playOrder="187" type="normal" value="184">
+      <navLabel>
+        <text>184</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01705"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01716" playOrder="188" type="normal" value="185">
+      <navLabel>
+        <text>185</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01716"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01733" playOrder="189" type="normal" value="186">
+      <navLabel>
+        <text>186</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01733"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01745" playOrder="190" type="normal" value="187">
+      <navLabel>
+        <text>187</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01745"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01764" playOrder="191" type="normal" value="188">
+      <navLabel>
+        <text>188</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01764"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01773" playOrder="192" type="normal" value="189">
+      <navLabel>
+        <text>189</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01773"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01775" playOrder="193" type="normal" value="190">
+      <navLabel>
+        <text>190</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01775"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01777" playOrder="194" type="normal" value="191">
+      <navLabel>
+        <text>191</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01777"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01782" playOrder="195" type="normal" value="192">
+      <navLabel>
+        <text>192</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01782"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01800" playOrder="196" type="normal" value="193">
+      <navLabel>
+        <text>193</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01800"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01811" playOrder="197" type="normal" value="194">
+      <navLabel>
+        <text>194</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01811"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01826" playOrder="198" type="normal" value="195">
+      <navLabel>
+        <text>195</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01826"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01840" playOrder="199" type="normal" value="196">
+      <navLabel>
+        <text>196</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01840"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01841" playOrder="200" type="normal" value="197">
+      <navLabel>
+        <text>197</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01841"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01844" playOrder="201" type="normal" value="198">
+      <navLabel>
+        <text>198</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01844"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01845" playOrder="202" type="normal" value="199">
+      <navLabel>
+        <text>199</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01845"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01852" playOrder="203" type="normal" value="200">
+      <navLabel>
+        <text>200</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01852"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01860" playOrder="204" type="normal" value="201">
+      <navLabel>
+        <text>201</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01860"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01871" playOrder="205" type="normal" value="202">
+      <navLabel>
+        <text>202</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01871"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01887" playOrder="206" type="normal" value="203">
+      <navLabel>
+        <text>203</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01887"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01901" playOrder="207" type="normal" value="204">
+      <navLabel>
+        <text>204</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01901"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01915" playOrder="208" type="normal" value="205">
+      <navLabel>
+        <text>205</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01915"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01933" playOrder="209" type="normal" value="206">
+      <navLabel>
+        <text>206</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01933"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01944" playOrder="210" type="normal" value="207">
+      <navLabel>
+        <text>207</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01944"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01954" playOrder="211" type="normal" value="208">
+      <navLabel>
+        <text>208</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01954"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01965" playOrder="212" type="normal" value="209">
+      <navLabel>
+        <text>209</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01965"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01979" playOrder="213" type="normal" value="210">
+      <navLabel>
+        <text>210</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01979"/>
+    </pageTarget>
+    <pageTarget id="pagenum_01996" playOrder="214" type="normal" value="211">
+      <navLabel>
+        <text>211</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_01996"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02012" playOrder="215" type="normal" value="212">
+      <navLabel>
+        <text>212</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02012"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02018" playOrder="216" type="normal" value="213">
+      <navLabel>
+        <text>213</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02018"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02024" playOrder="217" type="normal" value="214">
+      <navLabel>
+        <text>214</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02024"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02032" playOrder="218" type="normal" value="215">
+      <navLabel>
+        <text>215</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02032"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02041" playOrder="219" type="normal" value="216">
+      <navLabel>
+        <text>216</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02041"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02058" playOrder="220" type="normal" value="217">
+      <navLabel>
+        <text>217</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02058"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02065" playOrder="221" type="normal" value="218">
+      <navLabel>
+        <text>218</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02065"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02072" playOrder="222" type="normal" value="219">
+      <navLabel>
+        <text>219</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02072"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02078" playOrder="223" type="normal" value="220">
+      <navLabel>
+        <text>220</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02078"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02088" playOrder="224" type="normal" value="221">
+      <navLabel>
+        <text>221</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02088"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02100" playOrder="225" type="normal" value="222">
+      <navLabel>
+        <text>222</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02100"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02116" playOrder="226" type="normal" value="223">
+      <navLabel>
+        <text>223</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02116"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02127" playOrder="227" type="normal" value="224">
+      <navLabel>
+        <text>224</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02127"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02132" playOrder="228" type="normal" value="225">
+      <navLabel>
+        <text>225</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02132"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02145" playOrder="229" type="normal" value="226">
+      <navLabel>
+        <text>226</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02145"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02154" playOrder="230" type="normal" value="227">
+      <navLabel>
+        <text>227</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02154"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02164" playOrder="231" type="normal" value="228">
+      <navLabel>
+        <text>228</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02164"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02178" playOrder="232" type="normal" value="229">
+      <navLabel>
+        <text>229</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02178"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02189" playOrder="233" type="normal" value="230">
+      <navLabel>
+        <text>230</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02189"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02200" playOrder="234" type="normal" value="231">
+      <navLabel>
+        <text>231</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02200"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02213" playOrder="235" type="normal" value="232">
+      <navLabel>
+        <text>232</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02213"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02229" playOrder="236" type="normal" value="233">
+      <navLabel>
+        <text>233</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02229"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02238" playOrder="237" type="normal" value="234">
+      <navLabel>
+        <text>234</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02238"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02245" playOrder="238" type="normal" value="235">
+      <navLabel>
+        <text>235</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02245"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02253" playOrder="239" type="normal" value="236">
+      <navLabel>
+        <text>236</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02253"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02262" playOrder="240" type="normal" value="237">
+      <navLabel>
+        <text>237</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02262"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02280" playOrder="241" type="normal" value="238">
+      <navLabel>
+        <text>238</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02280"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02295" playOrder="242" type="normal" value="239">
+      <navLabel>
+        <text>239</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02295"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02303" playOrder="243" type="normal" value="240">
+      <navLabel>
+        <text>240</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02303"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02315" playOrder="244" type="normal" value="241">
+      <navLabel>
+        <text>241</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02315"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02323" playOrder="245" type="normal" value="242">
+      <navLabel>
+        <text>242</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02323"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02339" playOrder="246" type="normal" value="243">
+      <navLabel>
+        <text>243</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02339"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02357" playOrder="247" type="normal" value="244">
+      <navLabel>
+        <text>244</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02357"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02364" playOrder="248" type="normal" value="245">
+      <navLabel>
+        <text>245</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02364"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02371" playOrder="249" type="normal" value="246">
+      <navLabel>
+        <text>246</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02371"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02378" playOrder="250" type="normal" value="247">
+      <navLabel>
+        <text>247</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02378"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02385" playOrder="251" type="normal" value="248">
+      <navLabel>
+        <text>248</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02385"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02392" playOrder="252" type="normal" value="249">
+      <navLabel>
+        <text>249</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02392"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02403" playOrder="253" type="normal" value="250">
+      <navLabel>
+        <text>250</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02403"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02407" playOrder="254" type="normal" value="251">
+      <navLabel>
+        <text>251</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02407"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02415" playOrder="255" type="normal" value="252">
+      <navLabel>
+        <text>252</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02415"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02432" playOrder="256" type="normal" value="253">
+      <navLabel>
+        <text>253</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02432"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02448" playOrder="257" type="normal" value="254">
+      <navLabel>
+        <text>254</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02448"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02464" playOrder="258" type="normal" value="255">
+      <navLabel>
+        <text>255</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02464"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02469" playOrder="259" type="normal" value="256">
+      <navLabel>
+        <text>256</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02469"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02473" playOrder="260" type="normal" value="257">
+      <navLabel>
+        <text>257</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02473"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02475" playOrder="261" type="normal" value="258">
+      <navLabel>
+        <text>258</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02475"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02476" playOrder="262" type="normal" value="259">
+      <navLabel>
+        <text>259</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02476"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02482" playOrder="263" type="normal" value="260">
+      <navLabel>
+        <text>260</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02482"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02490" playOrder="264" type="normal" value="261">
+      <navLabel>
+        <text>261</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02490"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02500" playOrder="265" type="normal" value="262">
+      <navLabel>
+        <text>262</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02500"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02514" playOrder="266" type="normal" value="263">
+      <navLabel>
+        <text>263</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02514"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02521" playOrder="267" type="normal" value="264">
+      <navLabel>
+        <text>264</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02521"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02522" playOrder="268" type="normal" value="265">
+      <navLabel>
+        <text>265</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02522"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02524" playOrder="269" type="normal" value="266">
+      <navLabel>
+        <text>266</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02524"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02525" playOrder="270" type="normal" value="267">
+      <navLabel>
+        <text>267</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02525"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02532" playOrder="271" type="normal" value="268">
+      <navLabel>
+        <text>268</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02532"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02541" playOrder="272" type="normal" value="269">
+      <navLabel>
+        <text>269</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02541"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02550" playOrder="273" type="normal" value="270">
+      <navLabel>
+        <text>270</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02550"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02564" playOrder="274" type="normal" value="271">
+      <navLabel>
+        <text>271</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02564"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02579" playOrder="275" type="normal" value="272">
+      <navLabel>
+        <text>272</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02579"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02586" playOrder="276" type="normal" value="273">
+      <navLabel>
+        <text>273</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02586"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02598" playOrder="277" type="normal" value="274">
+      <navLabel>
+        <text>274</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02598"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02608" playOrder="278" type="normal" value="275">
+      <navLabel>
+        <text>275</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02608"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02617" playOrder="279" type="normal" value="276">
+      <navLabel>
+        <text>276</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02617"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02624" playOrder="280" type="normal" value="277">
+      <navLabel>
+        <text>277</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02624"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02632" playOrder="281" type="normal" value="278">
+      <navLabel>
+        <text>278</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02632"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02641" playOrder="282" type="normal" value="279">
+      <navLabel>
+        <text>279</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02641"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02653" playOrder="283" type="normal" value="280">
+      <navLabel>
+        <text>280</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02653"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02667" playOrder="284" type="normal" value="281">
+      <navLabel>
+        <text>281</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02667"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02676" playOrder="285" type="normal" value="282">
+      <navLabel>
+        <text>282</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02676"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02684" playOrder="286" type="normal" value="283">
+      <navLabel>
+        <text>283</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02684"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02699" playOrder="287" type="normal" value="284">
+      <navLabel>
+        <text>284</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02699"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02712" playOrder="288" type="normal" value="285">
+      <navLabel>
+        <text>285</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02712"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02725" playOrder="289" type="normal" value="286">
+      <navLabel>
+        <text>286</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02725"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02738" playOrder="290" type="normal" value="287">
+      <navLabel>
+        <text>287</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02738"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02752" playOrder="291" type="normal" value="288">
+      <navLabel>
+        <text>288</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02752"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02753" playOrder="292" type="normal" value="289">
+      <navLabel>
+        <text>289</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02753"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02755" playOrder="293" type="normal" value="290">
+      <navLabel>
+        <text>290</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02755"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02756" playOrder="294" type="normal" value="291">
+      <navLabel>
+        <text>291</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02756"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02768" playOrder="295" type="normal" value="292">
+      <navLabel>
+        <text>292</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02768"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02780" playOrder="296" type="normal" value="293">
+      <navLabel>
+        <text>293</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02780"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02791" playOrder="297" type="normal" value="294">
+      <navLabel>
+        <text>294</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02791"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02807" playOrder="298" type="normal" value="295">
+      <navLabel>
+        <text>295</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02807"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02812" playOrder="299" type="normal" value="296">
+      <navLabel>
+        <text>296</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02812"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02813" playOrder="300" type="normal" value="297">
+      <navLabel>
+        <text>297</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02813"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02815" playOrder="301" type="normal" value="298">
+      <navLabel>
+        <text>298</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02815"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02816" playOrder="302" type="normal" value="299">
+      <navLabel>
+        <text>299</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02816"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02825" playOrder="303" type="normal" value="300">
+      <navLabel>
+        <text>300</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02825"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02834" playOrder="304" type="normal" value="301">
+      <navLabel>
+        <text>301</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02834"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02841" playOrder="305" type="normal" value="302">
+      <navLabel>
+        <text>302</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02841"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02847" playOrder="306" type="normal" value="303">
+      <navLabel>
+        <text>303</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02847"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02854" playOrder="307" type="normal" value="304">
+      <navLabel>
+        <text>304</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02854"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02859" playOrder="308" type="normal" value="305">
+      <navLabel>
+        <text>305</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02859"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02864" playOrder="309" type="normal" value="306">
+      <navLabel>
+        <text>306</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02864"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02871" playOrder="310" type="normal" value="307">
+      <navLabel>
+        <text>307</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02871"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02876" playOrder="311" type="normal" value="308">
+      <navLabel>
+        <text>308</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02876"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02882" playOrder="312" type="normal" value="309">
+      <navLabel>
+        <text>309</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02882"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02888" playOrder="313" type="normal" value="310">
+      <navLabel>
+        <text>310</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02888"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02892" playOrder="314" type="normal" value="311">
+      <navLabel>
+        <text>311</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02892"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02898" playOrder="315" type="normal" value="312">
+      <navLabel>
+        <text>312</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02898"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02899" playOrder="316" type="normal" value="313">
+      <navLabel>
+        <text>313</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02899"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02900" playOrder="317" type="normal" value="314">
+      <navLabel>
+        <text>314</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02900"/>
+    </pageTarget>
+    <pageTarget id="pagenum_02918" playOrder="318" type="normal" value="315">
+      <navLabel>
+        <text>315</text>
+      </navLabel>
+      <content src="handmaidstale0000atwo_daisy.smil#pagenum_02918"/>
+    </pageTarget>
+  </pageList>
+</ncx>

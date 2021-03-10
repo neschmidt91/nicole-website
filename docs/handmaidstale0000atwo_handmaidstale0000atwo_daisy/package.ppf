@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE package PUBLIC "+//ISBN 0-9673008-1-9//DTD OEB 1.2 Package//EN" "http://openebook.org/dtds/oeb-1.2/oebpkg12.dtd">
+<package unique-identifier="bookid" xmlns="http://openebook.org/namespaces/oeb-package/1.0/">
+  <metadata>
+    <dc-metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <dc:Format>ANSI/NISO Z39.86-2005</dc:Format>
+      <dc:Identifier id="bookid">handmaidstale0000atwo</dc:Identifier>
+      <dc:Contributor>Internet Archive</dc:Contributor>
+      <dc:Creator>Atwood, Margaret, 1939-</dc:Creator>
+      <dc:Date>1986</dc:Date>
+      <dc:Description>311 pages ; 24 cm</dc:Description>
+      <dc:Description>The Handmaid's Tale is not only a radical and brilliant departure for Margaret Atwood, it is a novel of such power that the reader will be unable to forget its images and its forecast. Set in the near future, it describes life in what was once the United States, now called the Republic of Gilead, a monotheocracy that has reacted to social unrest and a sharply declining birthrate by reverting to, and going beyond, the repressive intolerance of the original Puritans. The regime takes the Book of Genesis absolutely at its world, with bizarre consequences for the women and men of its population. The story is told through the eyes of Offred, one of the unfortunate Handmaids under the new social order. In condensed but eloquent prose, by turns cool-eyed, tender, despairing, passionate, and wry, she reveals to us the dark corners behind the establishment's calm façade, as certain tendencies now in existence are carried to their logical conclusions. The Handmaid's Tale is funny, unexpected, horrifying, and altogether convincing. It is at once scathing satire, dire warning, and tour de force. It is Margaret Atwood at her best&quot;--Jacket</dc:Description>
+      <dc:Description>Night -- Shopping -- Night -- Waiting room -- Nap -- Household -- Night -- Birth day -- Night -- Soul scrolls -- Night -- Jezebel's -- Night -- Salvaging -- Night -- Historical notes</dc:Description>
+      <dc:Description>Accelerated Reader Middle Grade 9.1</dc:Description>
+      <dc:Description>Accelerated Reader AR UG 5.4</dc:Description>
+      <dc:Description>Full-cast dramatization</dc:Description>
+      <dc:Language>en</dc:Language>
+      <dc:Publisher>Boston : Houghton Mifflin</dc:Publisher>
+      <dc:Subject>Theocracy -- Fiction</dc:Subject>
+      <dc:Subject>Misogyny -- Fiction</dc:Subject>
+      <dc:Subject>Dystopias -- Fiction</dc:Subject>
+      <dc:Subject>Pregnancy -- Social aspects -- Fiction</dc:Subject>
+      <dc:Subject>Man-woman relationships -- Fiction</dc:Subject>
+      <dc:Subject>Women -- Fiction</dc:Subject>
+      <dc:Subject>Women</dc:Subject>
+      <dc:Subject>Man-woman relationships</dc:Subject>
+      <dc:Subject>Misogyny</dc:Subject>
+      <dc:Title>The handmaid's tale</dc:Title>
+    </dc-metadata>
+    <x-metadata>
+      <meta name="dtb:multimediaType" content="textNCX"/>
+      <meta name="dtb:multimediaContent" content="text"/>
+      <meta name="dtb:totalTime" content="0"/>
+    </x-metadata>
+  </metadata>
+  <manifest>
+    <item href="book.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="./book.ao" id="ao" media-type="application/x-pdtbauth+xml"/>
+    <item href="handmaidstale0000atwo_daisy.xml" id="xml" media-type="application/x-pdtbook+xml"/>
+    <item href="handmaidstale0000atwo_daisy.smil" id="smil" media-type="application/smil"/>
+    <item href="daisyTransform.xsl" id="daisyTransform" media-type="text/xsl"/>
+    <item href="daisy.css" id="daisyCss" media-type="text/css"/>
+    <item href="html.css" id="htmlCss" media-type="text/css"/>
+    <item href="resource.res" id="resource" media-type="application/x-dtbresource+xml"/>
+    <item href="facade.ncx" id="facade-ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="./package.opf" id="opf" media-type="text/xml"/>
+    <item href="./smilFile1.smil" id="smil" media-type="application/smil"/>
+    <item href="./facade.xml" id="xml" media-type="application/x-dtbook+xml"/>
+  </manifest>
+  <spine>
+    <itemref idref="smil"/>
+  </spine>
+</package>

@@ -1,0 +1,242 @@
+---
+title: "Text and sentiment analysis"
+description: |
+  This post shows the results from a text analysis and sentiment analysis of The Handmaid's Tail by Margaret Atwood
+author:
+  - name: Nicole Schmidt
+    url: {}
+date: 03-09-2021
+output:
+  distill::distill_article:
+    code_folding: true
+---
+
+
+```{r setup, cold_folding = TRUE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(tidytext)
+library(textdata)
+library(pdftools)
+library(ggwordcloud)
+library(png) #import images
+library(ggpubr) # add images to ggplot
+library(patchwork)
+```
+
+#### Introduction
+The Handmaid's Tail, by Margaret Atwood, is a popular dystopian novel about a Christian fundamentalist theocratic regime that takes power over the United States in response to a fertility crisis. This project undergoes a text and sentiment analysis to understand the most commonly used words and emotional trends throughout the novel. The first section looks at the most common words by chapter, and the top 50 most common words used throughout the novel. The second part is a sentiment analysis looking at the emotional trend.
+
+```{r, cache = TRUE}
+
+#Read in The Handmaid's Tail
+
+handmaids_tail_text <- pdf_text("handmaidstale_margaret_atwood.pdf")
+
+#handmaids_tail_p34 <- handmaids_tail_text[34]
+#handmaids_tail_p34
+
+#Get text into data frame and tidy format: 
+#each line has its own row 
+#get rid of extra white space
+
+handmaids_tail_tidy <- data.frame(handmaids_tail_text) %>% # each line is a page
+  mutate(text_full = str_split(handmaids_tail_text, pattern = '\\n')) %>%  # string split recognizes where there is a line break and splits it up; each line from each page is an element of a vector
+  unnest(text_full) %>%  # gives each line its own row; each element in each vector has its own space
+  mutate(text_full = str_trim(text_full)) # cleans up white space 
+
+
+```
+
+
+#### Part 1: Text Analysis
+
+```{r}
+# More tidying
+
+handsmaid_df <- handmaids_tail_tidy %>% 
+  slice(-(1:16)) %>%  # remove rows until chapter one begins 
+  mutate(chapter = case_when(
+    str_detect(text_full, pattern = "CHAPTER") ~ text_full,
+    TRUE ~ NA_character_)) %>%   # use string detect to detect the word chapter
+  fill(chapter) %>% 
+  separate(col = chapter, into = c("ch", "no"), sep = " ") %>% 
+  mutate(chapter = as.numeric(no)) # makes chapter column numeric 
+
+# Tidy to get a column that has lines separated by words 
+handmaids_tokens <- handsmaid_df %>% 
+  unnest_tokens(word, text_full) %>%  # each word is its own line 
+  select(-handmaids_tail_text) # get ris of this column
+
+# word count by chapter and remove stop words
+handmaids_ch_wordcount <- handmaids_tokens %>% 
+  anti_join(stop_words) %>%  # removes stop words 
+  count(chapter, word)
+
+
+
+```
+
+```{r}
+# Word count by chapter for first half of book
+top_5_words_23 <- handmaids_ch_wordcount %>% 
+  filter(chapter %in% c(1:23)) %>% 
+  group_by(chapter) %>% 
+  arrange(-n) %>% 
+  slice(1:5)
+
+# graph 
+ggplot(data = top_5_words_23, aes (y = fct_reorder(word, n), x = n))+
+  geom_col(fill = "blue")+
+  facet_wrap(~chapter, scales = "free")+
+  labs(title = "Top 5 most common words by chapter", x = "Words", y = "Count of words")
+
+```
+<br>
+**Figure 1:** The top 5 most common words by chapter of the first half of The Handmaid's Tail by Margaret Atwood. 
+
+
+```{r}
+# Word county by chapter for second half of book
+top_5_words_46 <- handmaids_ch_wordcount %>% 
+  filter(chapter %in% c(24:46)) %>% 
+  group_by(chapter) %>% 
+  arrange(-n) %>% 
+  slice(1:5)
+
+# graph 
+ggplot(data = top_5_words_46, aes (x = word, y = n))+
+  geom_col(fill = "blue")+
+  facet_wrap(~chapter, scales = "free")+
+  coord_flip()+
+  labs(title = "Top 5 most common words by chapter", x = "Word", y = "Count of words")
+```
+<br>
+**Figure 2:** The top 5 most common words by chapter of the second half of The Handmaid's Tail by Margaret Atwood. 
+
+
+```{r}
+
+# import image for background of word cloud
+img <- readPNG("handmaid1.png")
+
+### make a word cloud of top 50 most used words in the novel
+
+#tidy for word count of entire novel
+handmaids_nonstop <- handmaids_tokens %>% 
+  anti_join(stop_words)
+
+# get top 50 and filter out character names 
+top_50 <- handmaids_nonstop  %>% 
+  count(word) %>% 
+   filter(!word %in% c("janine", "moira", "lydia", "elizabeth", "luke", "ofglen", "waterford", "rita", "serena", "cora")) %>% 
+  arrange(-n) %>% 
+  slice(1:50)
+ 
+# create the word cloud
+cloud <- ggplot(data = top_50, aes(label = word))+
+  background_image(img)+
+  geom_text_wordcloud(aes(color = n, size = n), shape = "triangle-forward")+
+  scale_size_area(max_size = 10)+
+ scale_color_gradientn(colors = c("gray68", "gray26", "gray8"))+
+  theme_minimal()
+
+
+cloud
+
+```
+<br>
+**Figure 3:** Word count of the 50 most common words used in Margaret Atwood's The Handmaid's Tail. Character names are excluded from this list. The top 5 most common words are:  Time, Aunt, Women, Feel, and White. Image source: Josh D. Jackson 
+
+#### Part 2: Sentiment Analysis
+
+```{r}
+
+#get_sentiments(lexicon = "afinn")
+
+# first bind words in from the handmaids tail nonstop to afinn
+
+handmaid_afinn <- handmaids_nonstop %>% 
+  inner_join(get_sentiments("afinn"))
+
+# get counts by sentiment ranking
+afinn_counts <- handmaid_afinn %>% 
+  count(chapter, value)
+
+# get mean afinn score by chapter:
+afinn_mean <- handmaid_afinn %>% 
+  group_by(chapter) %>%
+  summarize(mean_afinn = mean(value))
+
+#Plot
+graph_a <- ggplot(data = afinn_mean,
+       aes(x = fct_rev(as.factor(chapter)),
+           y= mean_afinn))+
+  geom_col(fill = "midnightblue")+
+  coord_flip()+
+  labs( x = "Chapter", y = "Afinn value", title = "Sentiment values by chapter")
+
+
+
+```
+ 
+
+```{r, include = FALSE}
+
+# Sentiment Analysis with NRC Lexicon
+
+#handmaids_nrc <- handmaids_nonstop %>% 
+  #inner_join(get_sentiments("nrc"))
+
+# Find Count of words by chapter for first part of the book
+
+#handmaids_nrc_counts_1 <- handmaids_nrc %>%
+ # filter(chapter %in% c(1:23)) %>% 
+  #count(chapter, sentiment)
+
+#nrc_chapter <- ggplot(data = handmaids_nrc_counts_1, aes (x = sentiment, y = n))+
+ # geom_col()+
+ # facet_wrap(~chapter)+
+ # coord_flip()
+
+```
+
+```{r}
+
+handmaids_nrc <- handmaids_nonstop %>% 
+  inner_join(get_sentiments("nrc"))
+
+# find the top nrc bins by sentiment 
+
+top_nrc <- handmaids_nrc %>% 
+  count(sentiment) %>% 
+  arrange(-n)
+  
+graph_b <- ggplot(data = top_nrc, aes (y = n, x = fct_reorder(sentiment, n)))+
+  geom_col(fill = "midnightblue")+
+  coord_flip()+
+  labs(title = "NRC sentiment values", x = "NRC Sentiment", y = "Count of NRC sentiment")+
+  theme_classic()
+```
+
+```{r}
+
+#get plots together into one plot 
+
+graph_c <- (graph_a | graph_b) & theme_classic() &
+  plot_annotation(title = "Sentiment Analysis of The Handmaid's Tail by Margaret Atwood")
+
+graph_c
+
+```
+<br>
+**Figure 3:** Displays the Sentiment analysis for The Handmaid's Tail by Margaret Atwood. The left graph shows the mean Afinn sentiment value by chapter. The right graph shows the top NRC sentiment values throughout the entire novel. Although most of the chapters have a negative sentiment value, the most common NRC sentiment is associated with "positive". Many negative NRC bins are displayed, such as negative, sadness, fear, anger, disgust, and surprise. It is no surprise that The Handmaid's Tail, which is a dystopian novel, is largely associated with negative sentiments. 
+
+<br>
+
+#### Sources
+
+- Atwood, M. (1998). _The handmaid's tale_ (1st Anchor Books ed.). Anchor Books.
+- Crowd sourcing a Word-Emotion Association Lexicon, Saif Mohammad and Peter Turney, Computational Intelligence, 29 (3), 436-465, 2013.
+- Josh D. Jackson, Image retrieved from: https://www.pastemagazine.com/books/the-handmaid-s-tale/novels-read-after-handmaids-tale-margaret-atwood/
