@@ -1,5 +1,5 @@
 
 ---
-  title: "Blog" # any name you want here
+  title: "Data Analysis Projects" # any name you want here
   listings: posts # do this exactly
 --- 
