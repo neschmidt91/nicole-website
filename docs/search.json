@@ -6,21 +6,21 @@
       "description": "Career and Aspirations ",
       "author": [],
       "contents": "\nInterests\nMy focus at the Bren school lies in the intersection of water resource management, conservation planning, environmental justice, and strategic environmental communication. I am passionate about finding nature based solutions to water infrastructure problems. The interdisciplinary course load at the Bren School has enabled me to successfully communicate with people working in various sectors, such as business, economics, policy and politics, law, and the sciences. I am confident and successful in bringing people together from various disciplines to solve complex environmental problems.\n\n\n\n",
-      "last_modified": "2021-03-10T12:55:29-08:00"
+      "last_modified": "2021-03-10T14:55:38-08:00"
     },
     {
       "path": "blog.html",
       "title": "Blog",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-03-10T12:55:29-08:00"
+      "last_modified": "2021-03-10T14:55:40-08:00"
     },
     {
       "path": "index.html",
       "title": "Nicole",
       "author": [],
-      "contents": "\n\n          \n      \n      Nicole Schmidt\n      \n      \n      Home\n      About\n      Projects\n      Resume\n      Blog\n      ☰\n      \n      \n      \n        \n          \n            \n              \n            \n              Nicole\n            \n            \n              \n                \n                    \n                      \n                        LinkedIn\n                      \n                    \n                  \n                                    \n                    \n                      \n                        GitHub\n                      \n                    \n                  \n                                    \n                    \n                      \n                        Email\n                      \n                    \n                  \n                                  \n            \n          \n        \n        \n        \n          \n            Nicole is a trained environmental scientist and manager finishing up her Master’s at the Bren School of Environmental Science and Management. She is passionate about finding nature based solutions to environmental problems.\n          \n        \n      \n    \n\n    \n      \n        \n          \n            \n              \n            \n              Nicole\n            \n            \n              \n                \n                                    \n                    \n                      LinkedIn\n                    \n                  \n                                    \n                    \n                      GitHub\n                    \n                  \n                                    \n                    \n                      Email\n                    \n                  \n                                  \n              \n            \n            \n              Nicole is a trained environmental scientist and manager finishing up her Master’s at the Bren School of Environmental Science and Management. She is passionate about finding nature based solutions to environmental problems.\n            \n        \n      \n    \n\n    \n    \n    ",
-      "last_modified": "2021-03-10T14:36:43-08:00"
+      "contents": "\n\n          \n      \n      Nicole Schmidt\n      \n      \n      Home\n      About\n      Projects\n      Resume\n      Portfolio\n      ☰\n      \n      \n      \n        \n          \n            \n              \n            \n              Nicole\n            \n            \n              \n                \n                    \n                      \n                        LinkedIn\n                      \n                    \n                  \n                                    \n                    \n                      \n                        GitHub\n                      \n                    \n                  \n                                    \n                    \n                      \n                        Email\n                      \n                    \n                  \n                                  \n            \n          \n        \n        \n        \n          \n            Nicole is a trained environmental scientist and manager finishing up her Master’s at the Bren School of Environmental Science and Management. She is passionate about finding nature based solutions to environmental problems.\n          \n        \n      \n    \n\n    \n      \n        \n          \n            \n              \n            \n              Nicole\n            \n            \n              \n                \n                                    \n                    \n                      LinkedIn\n                    \n                  \n                                    \n                    \n                      GitHub\n                    \n                  \n                                    \n                    \n                      Email\n                    \n                  \n                                  \n              \n            \n            \n              Nicole is a trained environmental scientist and manager finishing up her Master’s at the Bren School of Environmental Science and Management. She is passionate about finding nature based solutions to environmental problems.\n            \n        \n      \n    \n\n    \n    \n    ",
+      "last_modified": "2021-03-10T15:05:32-08:00"
     },
     {
       "path": "projects.html",
@@ -28,7 +28,14 @@
       "description": "Project descriptions ",
       "author": [],
       "contents": "\nProjects\nMaster’s Project\nFor my Master’s project, 3 group members and myself analyzed floodplain restoration opportunities in Madera County. We identified priority areas to implement multiple benefit aquifer recharge projects that utilize natural infrastructure through a geospatial model in ArcGIS using publcially avaialble scientific data. Prioritization centered around areas in Madera County that could receive flood risk mitigation benefits and ecosystem enhancement benefits from flood managed aquifer recharge. We also created a shiny application to communicate results to stakeholders. To learn more about our project check out our website: https://floodforward.wixsite.com/website\nCommunciation’s Capstone\nTo be completed in late spring\n\n\n\n",
-      "last_modified": "2021-03-10T12:55:30-08:00"
+      "last_modified": "2021-03-10T14:55:41-08:00"
+    },
+    {
+      "path": "Resume.html",
+      "title": "Resume",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-03-10T15:06:33-08:00"
     }
   ],
   "collections": ["posts/posts.json"]
