@@ -9,7 +9,7 @@ links:
   - label: Email
     url: "mailto:nicoleschmidt@bren.ucsb.edu"
 output:
-  postcards::jolla
+  postcards::trestles
 site: distill::distill_website
 listing: posts
 ---
