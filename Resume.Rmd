@@ -3,6 +3,7 @@ title: "Resume"
 description: |
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+```{r echo = FALSE, message = FALSE, fig.align='center', fig.pos='H', out.width= "1000px", out.height="1100px"}
+
+knitr::include_graphics("Resume_for_website.pdf")
 ```
