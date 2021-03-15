@@ -8,7 +8,14 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+### Experience
+After graduating from the University of California, Santa Cruz with a Bachelor of Arts in Environmental Studies and Sociology, I spent 7 years working in environmental education to inspire the next generation of environmental stewards. From an outdoor school in the Santa Cruz Mountains to an elementary school in the urban jungle of San Francisco I developed transformation educational experiences for youth from diverse backgrounds. 
+
+Right before coming to Bren I worked as the Restoration Education Specialist with Save the Bay. I worked to protect and restore wetland habitat by leading community-based restoration programs. I increased the native biodiversity in the transition zone of tidal marshes by engaging volunteers and students in invasive species removal, native plant propagation, installation, and shoreline cleanups. I love working with a wide array of people and sharing with them the importance and beauty of wetlands and oceans. I am successful and passionate in fostering a citizenry that engages with and protects the natural environment.
+
 ### Interests
+My focus at the Bren school lies in the intersection of water resource management, conservation planning, environmental justice, responsible data management, and strategic environmental communication. I am passionate about communicating science to the  public through data visualization, storytelling, public speaking and writing to motivate sustainable behavioral change. 
 
-My focus at the Bren school lies in the intersection of water resource management, conservation planning, environmental justice, and strategic environmental communication. I am passionate about finding nature based solutions to water infrastructure problems. The interdisciplinary course load at the Bren School has enabled me to successfully communicate with people working in various sectors, such as business, economics, policy and politics, law, and the sciences. I am confident and successful in bringing people together from various disciplines to solve complex environmental problems. 
+The interdisciplinary course load at the Bren School has enabled me to successfully communicate with people working in various sectors, such as business, economics, policy, politics, law, and the sciences. I am confident and successful in bringing people together from various disciplines to solve complex environmental problems. 
 
+This website contains examples of various environmental data analysis projects that I have worked on using R. Please reach out if you would like to chat or collaborate. 

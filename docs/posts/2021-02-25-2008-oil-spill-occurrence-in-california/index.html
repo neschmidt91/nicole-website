@@ -3150,100 +3150,19 @@ body {
 
 <span class="co">#summary(oil_spill)</span>
 
-<span class="va">oil_spill</span> <span class="op">%&gt;%</span> <span class="fu"><a href="https://r-spatial.github.io/sf/reference/st_crs.html">st_crs</a></span><span class="op">(</span><span class="op">)</span> <span class="co">#check the CRS; WGS 84 3857</span>
-</code></pre>
-</div>
-</details>
-<pre><code>Coordinate Reference System:
-  User input: WGS 84 / Pseudo-Mercator 
-  wkt:
-PROJCRS[&quot;WGS 84 / Pseudo-Mercator&quot;,
-    BASEGEOGCRS[&quot;WGS 84&quot;,
-        DATUM[&quot;World Geodetic System 1984&quot;,
-            ELLIPSOID[&quot;WGS 84&quot;,6378137,298.257223563,
-                LENGTHUNIT[&quot;metre&quot;,1]]],
-        PRIMEM[&quot;Greenwich&quot;,0,
-            ANGLEUNIT[&quot;degree&quot;,0.0174532925199433]],
-        ID[&quot;EPSG&quot;,4326]],
-    CONVERSION[&quot;Popular Visualisation Pseudo-Mercator&quot;,
-        METHOD[&quot;Popular Visualisation Pseudo Mercator&quot;,
-            ID[&quot;EPSG&quot;,1024]],
-        PARAMETER[&quot;Latitude of natural origin&quot;,0,
-            ANGLEUNIT[&quot;degree&quot;,0.0174532925199433],
-            ID[&quot;EPSG&quot;,8801]],
-        PARAMETER[&quot;Longitude of natural origin&quot;,0,
-            ANGLEUNIT[&quot;degree&quot;,0.0174532925199433],
-            ID[&quot;EPSG&quot;,8802]],
-        PARAMETER[&quot;False easting&quot;,0,
-            LENGTHUNIT[&quot;metre&quot;,1],
-            ID[&quot;EPSG&quot;,8806]],
-        PARAMETER[&quot;False northing&quot;,0,
-            LENGTHUNIT[&quot;metre&quot;,1],
-            ID[&quot;EPSG&quot;,8807]]],
-    CS[Cartesian,2],
-        AXIS[&quot;easting (X)&quot;,east,
-            ORDER[1],
-            LENGTHUNIT[&quot;metre&quot;,1]],
-        AXIS[&quot;northing (Y)&quot;,north,
-            ORDER[2],
-            LENGTHUNIT[&quot;metre&quot;,1]],
-    USAGE[
-        SCOPE[&quot;unknown&quot;],
-        AREA[&quot;World - 85°S to 85°N&quot;],
-        BBOX[-85.06,-180,85.06,180]],
-    ID[&quot;EPSG&quot;,3857]]</code></pre>
-<details>
-<summary>Show code</summary>
-<div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class="va">ca_counties</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://r-spatial.github.io/sf/reference/st_read.html">read_sf</a></span><span class="op">(</span><span class="fu"><a href="https://here.r-lib.org//reference/here.html">here</a></span><span class="op">(</span><span class="st">&quot;ca_counties&quot;</span>, <span class="st">&quot;CA_Counties_TIGER2016.shp&quot;</span><span class="op">)</span><span class="op">)</span> <span class="op">%&gt;%</span> 
+<span class="co">#oil_spill %&gt;% st_crs() #check the CRS; WGS 84 3857</span>
+
+<span class="va">ca_counties</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://r-spatial.github.io/sf/reference/st_read.html">read_sf</a></span><span class="op">(</span><span class="fu"><a href="https://here.r-lib.org//reference/here.html">here</a></span><span class="op">(</span><span class="st">&quot;ca_counties&quot;</span>, <span class="st">&quot;CA_Counties_TIGER2016.shp&quot;</span><span class="op">)</span><span class="op">)</span> <span class="op">%&gt;%</span> 
   <span class="fu"><a href="https://rdrr.io/pkg/janitor/man/clean_names.html">clean_names</a></span><span class="op">(</span><span class="op">)</span> <span class="op">%&gt;%</span> 
   <span class="fu">rename</span><span class="op">(</span>county_name <span class="op">=</span> <span class="va">name</span>, land_area <span class="op">=</span> <span class="va">aland</span><span class="op">)</span>
 
-<span class="va">ca_counties</span> <span class="op">%&gt;%</span>  <span class="fu"><a href="https://r-spatial.github.io/sf/reference/st_crs.html">st_crs</a></span><span class="op">(</span><span class="op">)</span> <span class="co"># the same CRS as oil spill data  (WGS 84 3847)</span>
+<span class="co">#ca_counties %&gt;% st_crs() # the same CRS as oil spill data  (WGS 84 3847)</span>
 </code></pre>
 </div>
 </details>
-<pre><code>Coordinate Reference System:
-  User input: WGS 84 / Pseudo-Mercator 
-  wkt:
-PROJCRS[&quot;WGS 84 / Pseudo-Mercator&quot;,
-    BASEGEOGCRS[&quot;WGS 84&quot;,
-        DATUM[&quot;World Geodetic System 1984&quot;,
-            ELLIPSOID[&quot;WGS 84&quot;,6378137,298.257223563,
-                LENGTHUNIT[&quot;metre&quot;,1]]],
-        PRIMEM[&quot;Greenwich&quot;,0,
-            ANGLEUNIT[&quot;degree&quot;,0.0174532925199433]],
-        ID[&quot;EPSG&quot;,4326]],
-    CONVERSION[&quot;Popular Visualisation Pseudo-Mercator&quot;,
-        METHOD[&quot;Popular Visualisation Pseudo Mercator&quot;,
-            ID[&quot;EPSG&quot;,1024]],
-        PARAMETER[&quot;Latitude of natural origin&quot;,0,
-            ANGLEUNIT[&quot;degree&quot;,0.0174532925199433],
-            ID[&quot;EPSG&quot;,8801]],
-        PARAMETER[&quot;Longitude of natural origin&quot;,0,
-            ANGLEUNIT[&quot;degree&quot;,0.0174532925199433],
-            ID[&quot;EPSG&quot;,8802]],
-        PARAMETER[&quot;False easting&quot;,0,
-            LENGTHUNIT[&quot;metre&quot;,1],
-            ID[&quot;EPSG&quot;,8806]],
-        PARAMETER[&quot;False northing&quot;,0,
-            LENGTHUNIT[&quot;metre&quot;,1],
-            ID[&quot;EPSG&quot;,8807]]],
-    CS[Cartesian,2],
-        AXIS[&quot;easting (X)&quot;,east,
-            ORDER[1],
-            LENGTHUNIT[&quot;metre&quot;,1]],
-        AXIS[&quot;northing (Y)&quot;,north,
-            ORDER[2],
-            LENGTHUNIT[&quot;metre&quot;,1]],
-    USAGE[
-        SCOPE[&quot;unknown&quot;],
-        AREA[&quot;World - 85°S to 85°N&quot;],
-        BBOX[-85.06,-180,85.06,180]],
-    ID[&quot;EPSG&quot;,3857]]</code></pre>
 </div>
 <h4 id="introduction">Introduction</h4>
-<p>This project looks at oil spill occurrence and counts by county throughout California. The Office of Spill Prevention and Response (OSPR) Incident Tracking Database is responsible for tracking oil spills throughout the state. Oil spill presence data is collected by the OSPR Field and Response Team for oil spill in marine waters and the OSPR Inland Pollution Coordinators and Wardens for inland oil spills. First, the location of oil spills are identified throughout California and include inland, marine, and freshwater. Second, the counts of inland oil spills are identified by county.</p>
+<p>This project looks at oil spill occurrence and counts by county throughout California. The Office of Spill Prevention and Response (OSPR) Incident Tracking Database is responsible for tracking oil spills throughout the state. Oil spill presence data is collected by the OSPR Field and Response Team for oil spill in marine waters and the OSPR Inland Pollution Coordinators and Wardens for inland oil spills.</p>
 <h4 id="location-of-oil-spills-in-california">Location of oil spills in California</h4>
 <p><br> <strong>Figure 1:</strong> Map of the locations of 2008 oil spills that occurred throughout California. Types include inland, marine, and fresh water spills. Most oil spills occured in marine and fresh water locations. Data Source: CA DFW Oil Spill Incident Tracking</p>
 <h4 id="count-of-inland-oil-spill-events-by-california-counties-for-2008-oil-spills">Count of inland oil spill events by California counties for 2008 oil spills</h4>
@@ -3284,7 +3203,7 @@ PROJCRS[&quot;WGS 84 / Pseudo-Mercator&quot;,
 </ul>
 <h4 id="data-source">Data Source:</h4>
 <p>CA DFW Oil Spill Incident Tracking</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
