@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ### Experience
-After graduating from the University of California, Santa Cruz with a Bachelor of Arts in Environmental Studies and Sociology, I spent 7 years working in environmental education to inspire the next generation of environmental stewards. From an outdoor school in the Santa Cruz Mountains to an elementary school in the urban jungle of San Francisco I developed transformation educational experiences for youth from diverse backgrounds. 
+After graduating from the University of California, Santa Cruz with a Bachelor of Arts in Environmental Studies and Sociology, I spent 7 years working in environmental education to inspire the next generation of environmental stewards. From an outdoor school in the Santa Cruz Mountains to an elementary school in the urban jungle of San Francisco I developed transformational educational experiences for youth from diverse backgrounds. 
 
 Right before coming to Bren I worked as the Restoration Education Specialist with Save the Bay. I worked to protect and restore wetland habitat by leading community-based restoration programs. I increased the native biodiversity in the transition zone of tidal marshes by engaging volunteers and students in invasive species removal, native plant propagation, installation, and shoreline cleanups. I love working with a wide array of people and sharing with them the importance and beauty of wetlands and the natural world. I am successful and passionate in fostering a citizenry that engages with and protects the natural environment.
 
