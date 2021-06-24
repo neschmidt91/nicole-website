@@ -1,0 +1,26 @@
+---
+title: "Sea Level Rise in Santa Barbara County"
+description: |
+  A spatial analysis identifying areas at risk of flooding due to sea level rise in downtown Santa Barbara. 
+author:
+  - name: Nicole Schmidt
+    url: {}
+date: 03-10-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+library(tidyverse)
+library(pdftools)
+
+```
+
+#### Summary
+I conducted a spatial analysis in ArcGIS to identify areas most at risk of flooding due to sea level rise in downtown Santa Barbara. I identified the areas projected to be flooded, parcels projected to be flooded, and estimated the cost of property loss based of data from the National Oceanic and Atmospheric Administration and the United States Geological Survey.
+
+![](001.jpg)
