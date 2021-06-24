@@ -5,7 +5,7 @@ description: |
 
 ```{r, echo=FALSE, message= FALSE, fig.align='center', fig.pos='H', out.width= "1000px", out.height="1100px"}
 
-knitr::include_graphics("Resume_for_website.pdf")
+knitr::include_graphics("Resume_for_website1.pdf")
 
 
 ```
