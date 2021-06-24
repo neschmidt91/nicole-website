@@ -68,6 +68,23 @@
     "input_file": {}
   },
   {
+    "path": "posts/2021-02-25-seal-level-rise/",
+    "title": "Sea Level Rise in Santa Barbara County",
+    "description": "A spatial analysis identifying areas at risk of flooding due to sea level rise in downtown Santa Barbara.",
+    "author": [
+      {
+        "name": "Nicole Schmidt",
+        "url": {}
+      }
+    ],
+    "date": "2021-03-10",
+    "categories": [],
+    "contents": "\nSummary\nI conducted a spatial analysis in ArcGIS to identify areas most at risk of flooding due to sea level rise in downtown Santa Barbara. I identified the areas projected to be flooded, parcels projected to be flooded, and estimated the cost of property loss based of data from the National Oceanic and Atmospheric Administration and the United States Geological Survey.\n\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-06-24T13:35:31-07:00",
+    "input_file": "sea-level-rise.utf8.md"
+  },
+  {
     "path": "posts/2021-03-09-text-and-sentiment-analysis-for-the-handmaids-tail/",
     "title": "Text and sentiment analysis",
     "description": "This post shows the results from a text analysis and sentiment analysis of The Handmaid's Tail by Margaret Atwood",
